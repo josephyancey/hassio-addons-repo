@@ -10,8 +10,13 @@
     "amd64",
     "armhf"
   ],
+  "ingress": true,
+  "ingress_port": 7878,
   "ports": {
-    "7878/tcp": 7878
+    "7878/tcp": null
+  },
+  "ports_description": {
+    "7878/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
   "map": [
     "backup:rw",
